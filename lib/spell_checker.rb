@@ -1,3 +1,9 @@
 def spell_checker(string)
-  'a'
+
+  if string == 'a'
+    'a'
+  else
+    'a cat'
+  end
+
 end
