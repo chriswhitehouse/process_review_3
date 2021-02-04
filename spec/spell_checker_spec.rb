@@ -8,12 +8,14 @@ describe "#spell_checker" do
   end
 
   describe "incorrect spellings" do
-    it "should receive 'a dat' and return 'a ~dat~'" do
-      expect(spell_checker('a dat')).to eq 'a ~dat~'
-    end
-
     it "should receive 'a dat xat' and return 'a ~dat~ ~xat~'" do
       expect(spell_checker('a dat xat')).to eq 'a ~dat~ ~xat~'
+    end
+  end
+
+  describe "case management" do
+    it "should recieve 'A Cat' and return 'A Cat'"do
+      expect(spell_checker('A Cat')).to eq 'A Cat'
     end
   end
 
