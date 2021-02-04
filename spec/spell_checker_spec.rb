@@ -7,5 +7,11 @@ describe "#spell_checker" do
     end
   end
 
+  describe "incorrect spellings" do
+    it "should receive 'a dat' and return 'a dat'" do
+      expect(spell_checker('a dat')).to eq 'a ~dat~'
+    end
+  end
+
 
 end

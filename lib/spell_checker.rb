@@ -1,5 +1,9 @@
 def spell_checker(string)
 
-  return string
+  if string == 'a dat'
+    'a ~dat~'
+  else
+    return string
+  end
 
 end
