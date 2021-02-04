@@ -23,5 +23,11 @@ describe "#spell_checker" do
     end
   end
 
+  describe "edge cases" do
+    it "should receive '' and Raise Error 'No words found'" do
+      expect { spell_checker('') }.to raise_error('No words found')
+    end
+  end
+
 
 end

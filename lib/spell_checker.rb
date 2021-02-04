@@ -1,5 +1,9 @@
 def spell_checker(string)
 
+  if string == ''
+    raise "No words found"
+  end
+
   correct_spelling_library = [
     'a',
     'cat',
