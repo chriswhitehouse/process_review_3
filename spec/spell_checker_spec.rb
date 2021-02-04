@@ -17,6 +17,10 @@ describe "#spell_checker" do
     it "should recieve 'A Cat' and return 'A Cat'"do
       expect(spell_checker('A Cat')).to eq 'A Cat'
     end
+
+    it "should recieve 'A Dat' and return 'A ~Dat~'"do
+      expect(spell_checker('A Dat')).to eq 'A ~Dat~'
+    end
   end
 
 
