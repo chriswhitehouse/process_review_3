@@ -15,7 +15,7 @@ Custom Dictionary of correctly spelt words which testing for. For me to provide.
 Building a happy path:
 | "a"       | "a"       |
 | "a cat"    | "a cat"   |
-| "a cat sat" | "a cat"  |
+| "a cat sat" | "a cat sat"  |
 Introducing Incorrect spellings
 | "a dat" | "a ~dat~" |
 | "a dat xat" | |"a ~dat~ ~xat~" |
