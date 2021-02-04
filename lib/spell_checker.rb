@@ -1,8 +1,6 @@
 def spell_checker(string)
 
-  if string == ''
-    raise "No words found"
-  end
+  raise "No words found" if string == ''
 
   correct_spelling_library = [
     'a',

@@ -19,7 +19,7 @@ Building a happy path:
 Introducing Incorrect spellings
 | "a dat" | "a ~dat~" |
 | "a dat xat" | |"a ~dat~ ~xat~" |
-Introdicing Case Management
+Introducing Case Management
 | "A Cat"    | "A Cat"   |
 | "A Dat" | "A ~Dat~" |
 Edge Cases
